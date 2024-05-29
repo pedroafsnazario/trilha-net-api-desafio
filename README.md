@@ -1,3 +1,27 @@
+# UM ADENDO
+## Por Pedro Antonio
+* Por Alguma razão quando tentei rodar a API. Meu dotnet não abria e levava ao seguinte erro:
+  ## MSBUILD : error MSB1011: Especifique o arquivo de solução ou de projeto a usar porque esta pasta contém mais de um arquivo de solução ou de projeto.
+
+* Eu tentei pesquisar por algumas soluções no StackOverFlow e até encontrei uma [Issue](https://github.com/dotnet/sdk/issues/33674) no github onde várias pessoas estão relatando sobre esse erro.
+* A conclusão é que este erro ocorre porque tem mais de um arquivo .csproj/.sln dentro do projeto/diretório, e por isso causa conflito.
+* Além disso o erro pode ser por supostamente no VSCODE ao instalar a extensão do VSCODE de C# ele automaticamente adiciona um arquivo.sln no projeto (razão pela qual causa o conflito na minha API).
+* Eu não consegui achar no entanto nenhum arquivo .sln/.csproj adicional nas pastas/diretorio do projeto. Portanto não tenho 100% de certeza se a API está funcional ou não. No entanto.
+* Eu GARANTO que fiz este projeto com base nos projetos passados e nas vídeos aulas que vi na DIO. segui passo a passo e COMPREENDI o funcionamento/desenvolvimento de uma API em dotnet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # DIO - Trilha .NET - API e Entity Framework
 www.dio.me
 
